@@ -124,7 +124,7 @@ private String key;
     static String toString(int value) {
         for (RomanNumber i : RomanNumber.values()) {
             if (i.getValue() == value) { return i.getKey(); }
-            else if (value < 1) { throw new ArithmeticException(); }
+          else if (value < 1) { throw new ArithmeticException();
         }return null;
     }
 }
