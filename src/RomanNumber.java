@@ -117,13 +117,14 @@ private String key;
     static int toInteger(String key) {
         for (RomanNumber i : RomanNumber.values()){
              if (i.getKey().equals(key)) { return i.getValue(); }
+
         }return 0;
     }
 
     static String toString(int value) {
         for (RomanNumber i : RomanNumber.values()) {
             if (i.getValue() == value) { return i.getKey(); }
-
+            else if (value < 1) { throw new ArithmeticException(); }
         }return null;
     }
 }
