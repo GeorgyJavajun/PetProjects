@@ -10,7 +10,7 @@ public class Main {
              while(true) {
               String input = sc.nextLine();
               System.out.println(calc(input));
-             if(input.equals("exit")) { break; }
+             if (input.equals("exit")) { break; }
              }
     }
 
