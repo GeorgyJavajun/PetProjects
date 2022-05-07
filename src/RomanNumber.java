@@ -99,6 +99,7 @@ public enum RomanNumber {
     XCVIII("XCVIII",98),
     XCIX("XCIX",99),
     C("C", 100);
+    //Roman number i'm copy from internet, and next use hotkey(ctrl + ctrl + down). Then just write and write and write) 
 
 
 private int value;
