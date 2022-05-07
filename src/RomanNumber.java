@@ -123,7 +123,6 @@ private String key;
     static String toString(int value) {
         for (RomanNumber i : RomanNumber.values()) {
             if (i.getValue() == value) { return i.getKey(); }
-            else throw new ArithmeticException();
         }return null;
     }
 }
