@@ -10,9 +10,8 @@ public class Main {
 
              while (true) {
                  String input = sc.nextLine();
-                 System.out.println(calc(input));
                  if (input.equals("stop")) { break; }
-
+                 System.out.println(calc(input));
              }
     }
 
